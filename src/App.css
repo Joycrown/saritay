@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background:linear-gradient(
+    to right,
+    rgb(74, 74, 247) 0%,
+    rgb(74, 74, 247) 50%,
+    aqua 50%,
+    aqua 100%
+
+  );
+  height: 100vh;
+}
+
+.vote{
+  display: flex;
+  justify-content: center;
+  padding-top: 15rem;
+}
+.voting{
+  display: flex;
+  background-color: #fff;
+  width: 20%;
+  justify-content: center;
+  text-align: center;
+  height: 20vh;
+}
+hr{
+  height: 15vh;
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+.cats{
+  padding-top: 1rem;
+  margin-right: 3rem;
+}
+.cats >h3{
+  color:rgb(74, 74, 247) ;
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+}
+.dogs{
+  padding-top: 1rem;
+  /* margin-left: 3rem; */
+}
+.dogs >h3{
+  color:aqua ;
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+}
+.total-votes>h2{
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  padding: 12rem;
+}
